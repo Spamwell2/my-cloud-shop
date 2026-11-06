@@ -1,11 +1,11 @@
 <?php 
 // Simple database connection 
 $serverName = "tcp:mycardiffmet.database.windows.net,1433"; $connectionOptions = array( 
-"Database" => "myDatabase", 
+"Database" => "week5workshop", 
 "Uid" => "myadmin", 
 "PWD" => "Abcdefgh0!", 
 "Encrypt" => 1, 
-"TrustServerCertificate" => 0 
+"TrustServerCertificate" => 1 
 ); 
 // Process form submission if ($_SERVER[’REQUEST_METHOD’] == 
 ’POST’) { 
