@@ -48,20 +48,19 @@ radius: 4px; text-align: center;
 </div> 
 <div class="register-form"> 
 <h2>Register</h2> 
-<!-- Display error message if present --> <?php if 
-(isset($_GET[’error’])): ?> <div class="error"> 
+<!-- Display error message if present --> 
+<?php if (isset($_GET[’error’])): ?> <div class="error"> 
 <?php echo htmlspecialchars($_GET[’error’]); ?> </div> 
 <?php endif; ?> 
+
 <!-- Form submits to process_register.php --> 
 <form method="post" action="process_register.php"> <div class="form-group"> 
 <label>Full Name *</label> 
-<input type="text" name="name" placeholder="Enter your 
-full name" required> 
+<input type="text" name="name" placeholder="Enter your full name" required> 
 </div> 
 <div class="form-group"> 
 <label>Email *</label> 
-<input type="email" name="email" placeholder="Enter 
-your email" required> 
+<input type="email" name="email" placeholder="Enter your email" required> 
 </div> 
 <div class="form-group"> 
 <label>Password *</label> 
@@ -70,8 +69,7 @@ your email" required>
 <div class="form-group"> 
 <input type="submit" class="btn" value="Register"> </div> 
 </form> 
-<p style="text-align: center;"><a href="index.php">Back to Home 
-</a></p> 
+<p style="text-align: center;"><a href="index.php">Back to Home</a></p> 
 </div> 
 </body> 
 </html> 
