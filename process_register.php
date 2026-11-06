@@ -1,6 +1,6 @@
 <?php 
 // Simple database connection 
-$serverName = "tcp:mycardiffmet.database.windows.net,1433"; $connectionOptions = array( 
+$serverName = "tcp:week3workshop.database.windows.net"; $connectionOptions = array( 
 "Database" => "week5workshop", 
 "Uid" => "myadmin", 
 "PWD" => "Abcdefgh0!", 
